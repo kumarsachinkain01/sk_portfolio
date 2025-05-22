@@ -32,7 +32,9 @@ const AboutSection = () => {
              <div className='space-y-5'>
                  <h3 className='text-2xl font-semibold'>Passionate Web Developer & Tech Creator</h3>
                  <p className='text-muted-foreground'>
-                  With over 5 years of experience in web development , I specialize in creating responsive , accessible, add performant web applications using modern technologies.
+                  With hands-on experience in full-stack web development, I specialize in building responsive, accessible, and high-performing web applications using modern technologies like React, JavaScript, and Tailwind CSS.
+
+                  On the backend, I work with Node.js, Express, and MongoDB to create robust RESTful APIs and scalable database solutions. I'm passionate about turning ideas into interactive user experiences and constantly improving my skills to stay updated with the latest in web technologies
                  </p>
 
                  <p className='text-muted-foreground'>
