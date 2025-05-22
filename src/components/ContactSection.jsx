@@ -11,6 +11,8 @@ import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState, useEffect, useRef } from "react";
 import emailjs from '@emailjs/browser';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const service_id = import.meta.env.VITE_APP_SERVICE_ID;
 const template_id = import.meta.env.VITE_APP_TEMPLATE_ID;
@@ -159,13 +161,13 @@ const ContactSection = () => {
       <Linkedin className="h-6 w-6 text-glow" />
     </a>
     <a
-      href="https://twitter.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="p-2 rounded-full bg-primary/10 text-foreground/80 hover:bg-primary/20 hover:text-primary transition-all duration-300"
-    >
-      <Twitter className="h-6 w-6 text-glow" />
-    </a>
+  href="https://twitter.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-2 rounded-full bg-primary/10 text-foreground/80 hover:bg-primary/20 hover:text-primary transition-all duration-300"
+>
+  <FontAwesomeIcon icon={faXTwitter} className="text-xl" />
+</a>
     <a
       href="https://github.com/kumarsachinkain01"
       target="_blank"
