@@ -19,9 +19,9 @@ const AboutSection = () => {
 };
 
   return (
-    <section id='about'  className='py-24 px-24 relative '>
+    <section id='about'  className='py-12 px-4 sm:px-6 md:px-12 lg:px-24 w-full'>
       {" "}
-        <div className='container mx-auto mx-w-5xl'>
+        <div className='max-w-6xl mx-auto w-full'>
           <h2 className='text-3xl md:text-4xl font-bold mb-12 text-center animate-[var(--animate-fade-in)]'>
             About <span className={cn(
                 'inline-block logo-gradient text-glow animate-[var(--animate-fade-in-delay-1)] font-extrabold mx-2'
@@ -29,7 +29,7 @@ const AboutSection = () => {
           </h2>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center'>
-             {/* <div className='space-y-5'>
+             <div className='space-y-5'>
                  <h3 className='text-2xl font-semibold'>Passionate Web Developer & Tech Creator</h3>
                  <p className='text-muted-foreground'>
                   With over 5 years of experience in web development , I specialize in creating responsive , accessible, add performant web applications using modern technologies.
@@ -50,82 +50,8 @@ const AboutSection = () => {
                       Download CV
                     </a>
                  </div>
-             </div> */}
+             </div>
 
-             <div className="space-y-5 w-full">
-  <h3 className="text-2xl font-semibold text-left">
-    Passionate Web Developer & Tech Creator
-  </h3>
-
-  <p className="text-muted-foreground text-sm break-words text-left">
-    With over 5 years of experience in web development, I specialize in creating responsive, accessible, and performant web applications using modern technologies.
-  </p>
-
-  <p className="text-muted-foreground text-sm break-words text-left">
-    I'm passionate about creating elegant solutions to complex problems, and I'm constantly learning new technologies and techniques to stay at the forefront of the ever-evolving web landscape.
-  </p>
-
-  <div className="flex flex-col sm:flex-row gap-4">
-    <a href="#contact" className="cosmic-button inline-block text-center w-full sm:w-auto">
-      Get In Touch
-    </a>
-
-    <a
-      onClick={handleDownloadCV}
-      className="cosmic-button inline-block px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 cursor-pointer text-center w-full sm:w-auto"
-      aria-label="Download CV"
-    >
-      Download CV
-    </a>
-  </div>
-</div>
-
-             
-
-             {/* <div className='grid grid-cols-1 gap-6 '>
-              <div className="gradient-border p-6 card-hover">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-full bg-[#171729]">
-                    <Code className="h-6 w-6 text-[#7F7FD5]" />
-                  </div>
-                  <div className='text-left'>
-                   <h4 className='font-semibold text-lg'>Web Development</h4>
-                   <p className='text-muted-foreground'>
-                    {" "}
-                    Creating responsive websites and applications with modern frameworks.
-                   </p>
-                  </div>
-                </div>
-              </div>
-              <div className='gradient-border p-6 card-hover'>
-                <div className='flex items-start gap-4'>
-                   <div className='p-3 rounded-full bg-[#171729]'>
-                   <User className='h-6 w-6 text-[#7F7FD5] rounded-full'/>
-                   </div>
-                   <div className='text-left'>
-                   <h4 className='font-semibold text-lg'>UI/UX design</h4>
-                   <p className='text-muted-foreground'>
-                    {" "}
-                    Designing intuitive user interfaces and seamless user experience.
-                   </p>
-                  </div>
-                </div>
-              </div>
-              <div className='gradient-border p-6 card-hover'>
-                <div className='flex items-start gap-4'>
-                   <div className='p-3 rounded-full bg-[#171729]'>
-                   <Briefcase className='h-6 w-6 text-[#7F7FD5]'/>
-                   </div>
-                   <div className='text-left'>
-                   <h4 className='font-semibold text-lg'>Project Management</h4>
-                   <p className='text-muted-foreground'>
-                    {" "}
-                    Leading projects from conception to completion with agile methodologies.
-                   </p>
-                  </div>
-                </div>
-              </div>
-             </div> */}
 
              <div className="grid grid-cols-1 gap-6">
   {/* Card 1 */}
