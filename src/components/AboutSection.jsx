@@ -4,7 +4,8 @@ import { Briefcase, Code, User } from 'lucide-react'
 
 const AboutSection = () => {
   const handleDownloadCV = () => {
-  const fileUrl = 'src/assets/Sachin -1.pdf';
+  const fileUrl = 'public/resume/Sachin -1.pdf';
+  // let resume = "src/assets/Sachin -1.pdf"
 
   // Open the file in a new tab
   window.open(fileUrl, '_blank');
