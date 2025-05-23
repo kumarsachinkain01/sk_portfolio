@@ -47,11 +47,12 @@ const AboutSection = () => {
                     Get In Touch
                   </a>
 
-                   <a onClick={handleDownloadCV}
-                      className="cosmic-button inline-block px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 cursor-pointer"
+                   <a href="/resume/Sachin -1.pdf"
+                      download="Sachin_Kumar_CV.pdf"
+                      className="cosmic-button inline-block px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 cursor-pointer text-glow"
                       aria-label="Download CV">
                       Download CV
-                    </a>
+                  </a>
                  </div>
              </div>
 
